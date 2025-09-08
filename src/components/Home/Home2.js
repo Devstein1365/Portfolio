@@ -23,8 +23,8 @@ function Home2() {
               <i>
                 <b className="blue">
                   {" "}
-                  JavaScript, React.js, Tailwind CSS, Node.js, Express.js, PHP,
-                  and MySQL.
+                  JavaScript, React.js, Next.js Tailwind CSS, Node.js,
+                  Express.js, PHP, MySQL and nest.js.
                 </b>
               </i>
               <br />
