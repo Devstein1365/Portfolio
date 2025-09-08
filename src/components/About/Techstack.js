@@ -1,5 +1,6 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+// import { Col, Row } from "react-bootstrap";
+import { Col, Row, OverlayTrigger, Tooltip } from "react-bootstrap";
 import {
   DiJavascript1,
   DiReact,
@@ -12,41 +13,29 @@ import {
 import { SiFirebase, SiNestjs} from "react-icons/si";
 
 function Techstack() {
+   const techs = [
+    { icon: <DiJavascript1 />, name: "JavaScript" },
+    { icon: <DiPhp />, name: "PHP" },
+    { icon: <DiNodejs />, name: "Node.js" },
+    { icon: <DiReact />, name: "React.js" },
+    { icon: <DiMongodb />, name: "MongoDB" },
+    { icon: <DiGit />, name: "Git" },
+    { icon: <SiFirebase />, name: "Firebase" },
+    { icon: <SiNestjs />, name: "NestJS" },
+    { icon: <DiPython />, name: "Python" },
+  ];
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPhp />
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNestjs />
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
+     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      {techs.map((tech, idx) => (
+        <Col xs={4} md={2} className="tech-icons" key={idx}>
+          <OverlayTrigger
+            placement="top"
+            overlay={<Tooltip id={`tooltip-${idx}`}>{tech.name}</Tooltip>}
+          >
+            <div>{tech.icon}</div>
+          </OverlayTrigger>
+        </Col>
+      ))}
     </Row>
   );
 }
