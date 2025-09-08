@@ -38,7 +38,9 @@ function NavBar() {
       <Container>
         <Navbar.Brand href="/" className="d-flex">
           {/* <img src={logo} className="img-fluid logo" alt="brand" /> */}
-          <h2 className="purple"><b>Go.</b></h2>
+          <h2 className="blue">
+            <b>Go.</b>
+          </h2>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -90,7 +92,6 @@ function NavBar() {
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
-
 
             <Nav.Item className="fork-btn">
               <Button

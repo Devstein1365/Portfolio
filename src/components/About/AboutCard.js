@@ -8,17 +8,17 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Oga Gospel Oligwu </span>
-            from <span className="purple"> Nigeria.</span>
+            Hi Everyone, I am <span className="blue">Oga Gospel Oligwu </span>
+            from <span className="blue"> Nigeria.</span>
             <br />
             I am currently a 300 Level Mechatronics Engineering student at
             Federal University of Technology, Minna.
             <br />
             Alongside engineering, I am deeply passionate about web development.
             Over time, I’ve built several projects ranging from{" "}
-            <b className="purple">Hotel Booking System</b> and{" "}
-            <b className="purple">E-Commerce platforms</b> to an{" "}
-            <b className="purple">Online Clearance System</b>
+            <b className="blue">Hotel Booking System</b> and{" "}
+            <b className="blue">E-Commerce platforms</b> to an{" "}
+            <b className="blue">Online Clearance System</b>
             <br />
             <br />
             Apart from coding, some other activities that I enjoy!

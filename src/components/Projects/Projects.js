@@ -5,16 +5,16 @@ import examImg from "../../Assets/Projects/online-exam1.jpeg";
 import ecommerceImg from "../../Assets/Projects/cara-ecommerce.jpeg";
 import hotelImg from "../../Assets/Projects/hotelAPI.jpg";
 import blogImg from "../../Assets/Projects/blog.jpeg";
-import phpExam from "../../Assets/Projects/examPHP.jpeg"
+import phpExam from "../../Assets/Projects/examPHP.jpeg";
 import Particle from "../Particle";
 
 function Projects() {
   return (
     <Container fluid className="project-section">
       <Container>
-        <Particle/>
+        <Particle />
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works</strong>
+          My Recent <strong className="blue">Works</strong>
         </h1>
         <p style={{ color: "white" }}>
           Here are a few projects I’ve built and learned from.

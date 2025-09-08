@@ -12,7 +12,7 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              LET ME <span className="blue"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
               I discovered programming during my journey as a Mechatronics
@@ -21,7 +21,7 @@ function Home2() {
               <br />
               <br />I work with modern web technologies and I’m fluent in
               <i>
-                <b className="purple">
+                <b className="blue">
                   {" "}
                   JavaScript, React.js, Tailwind CSS, Node.js, Express.js, PHP,
                   and MySQL.
@@ -31,35 +31,40 @@ function Home2() {
               <br />
               My interests lie in building &nbsp;
               <i>
-                <b className="purple"> real-world web applications</b> from{" "}
-                <b className="purple">fintech solutions</b> and{" "}
-                <b className="purple"> online systems</b> to marketplaces and
+                <b className="blue"> real-world web applications</b> from{" "}
+                <b className="blue">fintech solutions</b> and{" "}
+                <b className="blue"> online systems</b> to marketplaces and
                 service platforms.{" "}
               </i>
               <br />
               <br />
               Whenever possible, I channel my creativity into developing
               projects that solve everyday problems, using tools like{" "}
-              <b className="purple"> Node.js</b> and
+              <b className="blue"> Node.js</b> and
               <i>
-                <b className="purple">
+                <b className="blue">
                   {" "}
                   Modern Javascript Library and Frameworks
                 </b>
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js &nbsp;</b>
+                <b className="blue"> React.js &nbsp;</b>
               </i>
               and &nbsp;
               <i>
-                <b className="purple">backend APIs</b>
+                <b className="blue">backend APIs</b>
               </i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} style={{ width: "18em", borderRadius: "50%" }} className="img-fluid" alt="avatar" />
+              <img
+                src={myImg}
+                style={{ width: "18em", borderRadius: "50%" }}
+                className="img-fluid"
+                alt="avatar"
+              />
             </Tilt>
           </Col>
         </Row>
@@ -67,7 +72,7 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Feel free to <span className="blue">connect </span>with me
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
