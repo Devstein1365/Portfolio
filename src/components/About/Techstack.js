@@ -9,7 +9,7 @@ import {
   DiGit,
   DiPhp,
 } from "react-icons/di";
-import { SiFirebase, SiNestjs, SiNextdotjs } from "react-icons/si";
+import { SiFirebase, SiNestjs} from "react-icons/si";
 
 function Techstack() {
   return (
