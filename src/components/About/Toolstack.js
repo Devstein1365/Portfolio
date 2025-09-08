@@ -1,5 +1,4 @@
 import React from "react";
-// import { Col, Row } from "react-bootstrap";
 import { Col, Row, OverlayTrigger, Tooltip } from "react-bootstrap";
 import {
   SiVisualstudiocode,
