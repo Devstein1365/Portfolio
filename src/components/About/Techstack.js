@@ -9,7 +9,7 @@ import {
   DiGit,
   DiPhp,
 } from "react-icons/di";
-import { SiFirebase } from "react-icons/si";
+import { SiFirebase, SiNestjs, SiNextdotjs } from "react-icons/si";
 
 function Techstack() {
   return (
@@ -38,6 +38,10 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiNestjs />
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
