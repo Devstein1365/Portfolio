@@ -1,18 +1,18 @@
 import React, { useState, useEffect } from "react";
-import Preloader from "../src/components/Pre";
-import Navbar from "./components/Navbar";
-import Home from "./components/Home/Home";
-import About from "./components/About/About";
-import Projects from "./components/Projects/Projects";
-import Footer from "./components/Footer";
-import Resume from "./components/Resume/ResumeNew";
+import Preloader from "./components/Pre.jsx";
+import Navbar from "./components/Navbar.jsx";
+import Home from "./components/Home/Home.jsx";
+import About from "./components/About/About.jsx";
+import Projects from "./components/Projects/Projects.jsx";
+import Footer from "./components/Footer.jsx";
+import Resume from "./components/Resume/ResumeNew.jsx";
 import {
   BrowserRouter as Router,
   Route,
   Routes,
-  Navigate
+  Navigate,
 } from "react-router-dom";
-import ScrollToTop from "./components/ScrollToTop";
+import ScrollToTop from "./components/ScrollToTop.jsx";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -39,7 +39,7 @@ function App() {
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="*" element={<Navigate to="/"/>} />
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />
       </div>
