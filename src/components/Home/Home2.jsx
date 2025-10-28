@@ -17,9 +17,9 @@ function Home2() {
             <p className="home-about-body">
               I discovered programming during my journey as a Mechatronics
               Engineering student, and it quickly became more than just a
-              skill—it became my craft. 🚀
+              skill—it became my craft.
               <br />
-              <br />I work with modern web technologies and I’m fluent in
+              <br />I work with modern web technologies and I'm fluent in
               <i>
                 <b className="blue">
                   {" "}

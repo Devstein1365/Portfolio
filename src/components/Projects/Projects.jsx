@@ -17,7 +17,7 @@ function Projects() {
           My Recent <strong className="blue">Works</strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I’ve built and learned from.
+          Here are a few projects I've built and learned from.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           {/* Online Exam System */}
@@ -27,8 +27,8 @@ function Projects() {
               isBlog={false}
               title="Online Exam System"
               description="A dynamic online examination platform built with pure HTML, CSS, and JavaScript. Lets users take exams and view results in real time."
-              ghLink="https://github.com/Goldstein1365/Online-Exam-System"
-              demoLink={"https://goldstein1365.github.io/Online-Exam-System/"}
+              ghLink="https://github.com/Devstein1365/Online-Exam-System"
+              demoLink={"https://devstein1365.github.io/Online-Exam-System/"}
             />
           </Col>
 
@@ -37,10 +37,10 @@ function Projects() {
             <ProjectCard
               imgPath={ecommerceImg}
               isBlog={false}
-              title="Cara–ecommerce"
+              title="Cara-ecommerce"
               description="A responsive e-commerce website with a dynamic shopping cart, newsletter alerts, and JS interactivity—built with HTML, CSS & vanilla JavaScript."
-              ghLink="https://github.com/Goldstein1365/Cara-ecommerce"
-              demoLink={"https://goldstein1365.github.io/Cara-ecommerce/"}
+              ghLink="https://github.com/Devstein1365/Cara-ecommerce"
+              demoLink={"https://devstein1365.github.io/Cara-ecommerce/"}
             />
           </Col>
 
@@ -51,7 +51,7 @@ function Projects() {
               isBlog={false}
               title="Hotel Management API"
               description="A RESTful backend API for managing hotel rooms, bookings, and user authentication—built using Node.js, Express.js, and MongoDB."
-              ghLink="https://github.com/Goldstein1365/hotel-management"
+              ghLink="https://github.com/Devstein1365/hotel-management"
               demoLink={"https://hotel-management-1-3i2q.onrender.com/"}
             />
           </Col>
@@ -63,7 +63,7 @@ function Projects() {
               isBlog={false}
               title="Node.js Blog Platform"
               description="A blogging platform with user-authored posts, built using Node.js, Express, MongoDB, and EJS templating."
-              ghLink="https://github.com/Goldstein1365/nodejs-blog"
+              ghLink="https://github.com/Devstein1365/nodejs-blog"
               demoLink={null}
             />
           </Col>
@@ -73,7 +73,7 @@ function Projects() {
               isBlog={false}
               title="Exam System PHP"
               description="Enhanced the online exam system by integrating a backend with PHP and MySQL, allowing for dynamic user management and exam results."
-              ghLink="https://github.com/Goldstein1365/Exam_System_PHP"
+              ghLink="https://github.com/Devstein1365/Exam_System_PHP"
               demoLink={null}
             />
           </Col>
