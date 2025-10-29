@@ -1,65 +1,83 @@
-<h2 align="center">
-  Portfolio Website<br/>
-  <a href="https://your-deployment-link.com" target="_blank">Gospel's Portfolio</a>
-</h2>
+# Portfolio Website
 
-<div align="center">
-  <img alt="Demo" src="./Images/readme-img.png" />
-</div>
-
----
-
-<div align="center">
-
-![GitHub Repo stars](https://img.shields.io/github/stars/Goldstein1365/Portfolio?color=gold&logo=github&style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/Goldstein1365/Portfolio?color=blue&logo=github&style=for-the-badge)  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin&style=for-the-badge)](https://www.linkedin.com/in/gospel-ogah-3342a5296/)  
-[![GitHub followers](https://img.shields.io/github/followers/Goldstein1365?logo=github&style=for-the-badge)](https://github.com/Goldstein1365)  
-[![Twitter Follow](https://img.shields.io/twitter/follow/GospeeRifz?color=1DA1F2&logo=twitter&style=for-the-badge)](https://x.com/GospeeRifz?t=koIAx6GEHBi0nNVzuLVXjw&s=09)
-
-</div>
-
----
+A modern, responsive portfolio website built with React and Vite, showcasing my projects, skills, and professional experience.
 
 ## 🚀 Built With
 
-This is my personal portfolio website which features my projects, skills, and a bit about me.
-
-Technologies used:
-
-- React.js
-- Tailwind CSS
-- Node.js (for backend APIs)
-- VsCode
-- Vercel (Deployment)
-
----
+- **React 18** - A JavaScript library for building user interfaces
+- **Vite** - Next generation frontend tooling
+- **React Bootstrap** - Bootstrap components built with React
+- **React Router** - Declarative routing for React
+- **React Icons** - Popular icons as React components
+- **TypeScript Particles** - Lightweight particles animation
+- **React Parallax Tilt** - Parallax tilt effect for React components
+- **Typewriter Effect** - Typewriter animation effect
 
 ## ✨ Features
 
-- 📖 **Multi-Page Layout**
-- 🎨 **Styled with TailwindCSS for easy customization**
-- 📱 **Fully Responsive Design**
+- 📱 Fully responsive design
+- 🎨 Modern UI with smooth animations
+- 🌙 Interactive particle effects
+- 📄 PDF resume viewer
+- 📊 GitHub contribution calendar
+- ⚡ Fast performance with Vite
+- 🎯 SEO optimized
+
+## 🛠️ Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Devstein1365/portfolio.git
+cd portfolio
+```
+
+2. Install dependencies:
+
+```bash
+npm install --legacy-peer-deps
+```
+
+3. Start the development server:
+
+```bash
+npm run dev
+```
+
+The app will open at `http://localhost:5173`
+
+## 📦 Available Scripts
+
+- `npm run dev` - Starts the development server
+- `npm run build` - Builds the app for production
+- `npm run preview` - Preview the production build locally
+- `npm test` - Run tests
+
+## 🌐 Deployment
+
+Build the project for production:
+
+```bash
+npm run build
+```
+
+The optimized files will be in the `dist` folder, ready to deploy to any static hosting service.
+
+## 📱 Connect With Me
+
+- **LinkedIn**: [Gospel Ogah](https://www.linkedin.com/in/gospel-ogah-3342a5296/)
+- **Twitter/X**: [@Devstein1365](https://x.com/Devstein1365)
+- **GitHub**: [Devstein1365](https://github.com/Devstein1365)
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🙏 Acknowledgments
+
+- Thanks to all the open-source libraries that made this project possible
+- Inspired by modern portfolio designs from the developer community
 
 ---
 
-## 🛠 Getting Started
-
-To run this project locally, you’ll need `Node.js` and `git` installed globally on your machine.
-
-### Installation and Setup
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Goldstein1365/Portfolio.git
-   ```
-2. Navigate to the project directory and install dependencies:
-   ```bash
-   npm install
-   ```
-3. Start the development server:
-   ```bash
-   npm start
-   ```
-
-The app will run in development mode on http://localhost:3000
+Made with ❤️ by Gospel Ogah
