@@ -5,7 +5,8 @@ import examImg from "../../Assets/Projects/online-exam1.jpeg";
 import ecommerceImg from "../../Assets/Projects/cara-ecommerce.jpeg";
 import hotelImg from "../../Assets/Projects/hotelAPI.jpg";
 import blogImg from "../../Assets/Projects/blog.jpeg";
-import phpExam from "../../Assets/Projects/examPHP.jpeg";
+import unifyrImg from "../../Assets/Projects/unifyr.png"
+import wonderImg from "../../Assets/Projects/wondertix.png"
 import Particle from "../Particle";
 
 function Projects() {
@@ -20,6 +21,31 @@ function Projects() {
           Here are a few projects I've built and learned from.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          {/* unifyr  */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={unifyrImg}
+              isBlog={false}
+              title="Unifyr"
+              description="A modern, responsive React application for managing orders across multiple service categories including Printing & Branding, Food Delivery, Recruitment, Real Estate, Wedding Planning, and Spa & Wellness."
+              ghLink="https://github.com/Devstein1365/unifyr_frontend"
+              demoLink={"https://unifyr-sigma.vercel.com"}
+            />
+          </Col>
+
+          {/* wondertix  */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={wonderImg}
+              isBlog={false}
+              title="Wondertix"
+              description="WonderTix is a modern, user-friendly ticketing platform built for Festive Wonderland 2025 - Nigeria's premier Christmas celebration event in Minna, Niger State. The platform provides seamless ticket purchasing, secure payment processing via Alat by Wema Bank, and digital ticket delivery."
+              ghLink="https://github.com/Devstein1365/wondertix"
+              demoLink={"https://wondertix.netlify.com"}
+            />
+          </Col>
+          
           {/* Online Exam System */}
           <Col md={4} className="project-card">
             <ProjectCard
@@ -67,16 +93,10 @@ function Projects() {
               demoLink={null}
             />
           </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={phpExam}
-              isBlog={false}
-              title="Exam System PHP"
-              description="Enhanced the online exam system by integrating a backend with PHP and MySQL, allowing for dynamic user management and exam results."
-              ghLink="https://github.com/Devstein1365/Exam_System_PHP"
-              demoLink={null}
-            />
-          </Col>
+
+    
+          
+          
         </Row>
       </Container>
     </Container>
