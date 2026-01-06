@@ -28,7 +28,7 @@ function Projects() {
               imgPath={unifyrImg}
               isBlog={false}
               title="Unifyr"
-              description="A modern, responsive React application for managing orders across multiple service categories including Printing & Branding, Food Delivery, Recruitment, Real Estate, Wedding Planning, and Spa & Wellness."
+              description="A modern React-based dashboard application demonstrating component-based architecture, reusable UI components, and responsive layouts across multiple service categories."
               ghLink="https://github.com/Devstein1365/unifyr_frontend"
               demoLink={"https://unifyr-sigma.vercel.app"}
             />
@@ -40,7 +40,7 @@ function Projects() {
               imgPath={wonderImg}
               isBlog={false}
               title="Wondertix"
-              description="WonderTix is a modern, user-friendly ticketing platform built for Festive Wonderland 2025 - Nigeria's premier Christmas celebration event in Minna, Niger State. The platform provides seamless ticket purchasing, secure payment processing via Alat by Wema Bank, and digital ticket delivery."
+              description="A modern ticketing platform with a clean user interface, form workflows, and responsive design, built for a large event."
               ghLink="https://github.com/Devstein1365/wondertix"
               demoLink={"https://wondertix.netlify.app"}
             />
@@ -52,7 +52,7 @@ function Projects() {
               imgPath={examImg}
               isBlog={false}
               title="Online Exam System"
-              description="A dynamic online examination platform built with pure HTML, CSS, and JavaScript. Lets users take exams and view results in real time."
+              description="A dynamic online examination platform built with pure HTML, CSS, and JavaScript. Demonstrates DOM manipulation, form handling, timers, and real-time result calculation — ideal for teaching core frontend fundamentals."
               ghLink="https://github.com/Devstein1365/Online-Exam-System"
               demoLink={"https://devstein1365.github.io/Online-Exam-System/"}
             />
@@ -64,7 +64,7 @@ function Projects() {
               imgPath={ecommerceImg}
               isBlog={false}
               title="Cara-ecommerce"
-              description="A responsive e-commerce website with a dynamic shopping cart, newsletter alerts, and JS interactivity—built with HTML, CSS & vanilla JavaScript."
+              description="A responsive e-commerce website featuring product listings, shopping cart logic, and interactive UI elements built with HTML, CSS, and vanilla JavaScript. Demonstrates state handling, events, and real-world frontend logic."
               ghLink="https://github.com/Devstein1365/Cara-ecommerce"
               demoLink={"https://devstein1365.github.io/Cara-ecommerce/"}
             />
