@@ -30,7 +30,7 @@ function Projects() {
               title="Unifyr"
               description="A modern, responsive React application for managing orders across multiple service categories including Printing & Branding, Food Delivery, Recruitment, Real Estate, Wedding Planning, and Spa & Wellness."
               ghLink="https://github.com/Devstein1365/unifyr_frontend"
-              demoLink={"https://unifyr-sigma.vercel.com"}
+              demoLink={"https://unifyr-sigma.vercel.app"}
             />
           </Col>
 
@@ -42,7 +42,7 @@ function Projects() {
               title="Wondertix"
               description="WonderTix is a modern, user-friendly ticketing platform built for Festive Wonderland 2025 - Nigeria's premier Christmas celebration event in Minna, Niger State. The platform provides seamless ticket purchasing, secure payment processing via Alat by Wema Bank, and digital ticket delivery."
               ghLink="https://github.com/Devstein1365/wondertix"
-              demoLink={"https://wondertix.netlify.com"}
+              demoLink={"https://wondertix.netlify.app"}
             />
           </Col>
           
