@@ -42,7 +42,7 @@ function Projects() {
               title="Wondertix"
               description="A modern ticketing platform with a clean user interface, form workflows, and responsive design, built for a large event."
               ghLink="https://github.com/Devstein1365/wondertix"
-              demoLink={"https://wondertix.netlify.app"}
+              demoLink={"https://wondertix.vercel.app"}
             />
           </Col>
           
