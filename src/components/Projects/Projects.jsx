@@ -3,10 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import examImg from "../../Assets/Projects/online-exam1.jpeg";
 import ecommerceImg from "../../Assets/Projects/cara-ecommerce.jpeg";
-import hotelImg from "../../Assets/Projects/hotelAPI.jpg";
-import blogImg from "../../Assets/Projects/blog.jpeg";
-import unifyrImg from "../../Assets/Projects/unifyr.png"
-import wonderImg from "../../Assets/Projects/wondertix.png"
+import unifyrImg from "../../Assets/Projects/unifyr.png";
+import wonderImg from "../../Assets/Projects/wondertix.png";
+import kanbanImg from "../../Assets/Projects/kanban.jpg";
+import cygenImg from "../../Assets/Projects/cygen.png";
 import Particle from "../Particle";
 
 function Projects() {
@@ -21,7 +21,6 @@ function Projects() {
           Here are a few projects I've built and learned from.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-
           {/* unifyr  */}
           <Col md={4} className="project-card">
             <ProjectCard
@@ -45,7 +44,31 @@ function Projects() {
               demoLink={"https://wondertix.vercel.app"}
             />
           </Col>
-          
+
+          {/* Kanband Board  */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={kanbanImg}
+              isBlog={false}
+              title="Kanban Board"
+              description="A mobile-first PWA for running your personal 30-day coding sprint. Plan daily tasks, track projects, log progress, and stay consistent — all offline, no account needed."
+              ghLink="https://github.com/Devstein1365/Kanban-Board"
+              demoLink={"https://kanband13.vercel.app"}
+            />
+          </Col>
+
+          {/* CyGen  */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={cygenImg}
+              isBlog={false}
+              title="CyGen Dashboard"
+              description="This is a dashboard application for an ESP8266 project called CyGen. It provides a user interface to display real-time sensor data like Battery, Speed, Voltage, and Power Flow."
+              ghLink="https://github.com/Devstein1365/CyGen_frontend"
+              demoLink={"https://cygen13.vercel.app/"}
+            />
+          </Col>
+
           {/* Online Exam System */}
           <Col md={4} className="project-card">
             <ProjectCard
@@ -69,34 +92,6 @@ function Projects() {
               demoLink={"https://devstein1365.github.io/Cara-ecommerce/"}
             />
           </Col>
-
-          {/* Hotel Management API */}
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={hotelImg}
-              isBlog={false}
-              title="Hotel Management API"
-              description="A RESTful backend API for managing hotel rooms, bookings, and user authentication—built using Node.js, Express.js, and MongoDB."
-              ghLink="https://github.com/Devstein1365/hotel-management"
-              demoLink={"https://hotel-management-1-3i2q.onrender.com/"}
-            />
-          </Col>
-
-          {/* Node.js Blog Platform */}
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={blogImg}
-              isBlog={false}
-              title="Node.js Blog Platform"
-              description="A blogging platform with user-authored posts, built using Node.js, Express, MongoDB, and EJS templating."
-              ghLink="https://github.com/Devstein1365/nodejs-blog"
-              demoLink={null}
-            />
-          </Col>
-
-    
-          
-          
         </Row>
       </Container>
     </Container>
