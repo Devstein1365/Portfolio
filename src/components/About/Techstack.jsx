@@ -8,8 +8,9 @@ import {
   DiPython,
   DiGit,
   DiPhp,
+  DiMysql,
 } from "react-icons/di";
-import { SiFirebase, SiNestjs} from "react-icons/si";
+import { SiFirebase, SiNestjs, SiTailwindcss} from "react-icons/si";
 
 function Techstack() {
    const techs = [
@@ -17,8 +18,10 @@ function Techstack() {
     { icon: <DiPhp />, name: "PHP" },
     { icon: <DiNodejs />, name: "Node.js" },
     { icon: <DiReact />, name: "React.js" },
+    { icon: <SiTailwindcss />, name: "Tailwind CSS" },
     { icon: <DiMongodb />, name: "MongoDB" },
     { icon: <DiGit />, name: "Git" },
+    { icon: <DiMysql />, name: "MySQL" },
     { icon: <SiFirebase />, name: "Firebase" },
     { icon: <SiNestjs />, name: "NestJS" },
     { icon: <DiPython />, name: "Python" },

@@ -6,6 +6,8 @@ import {
   SiNetlify,
   SiFigma,
   SiGithub,
+  SiSupabase,
+  SiPostman,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -13,6 +15,8 @@ function Toolstack() {
     { icon: <SiGithub />, name: "GitHub" },
     { icon: <SiVisualstudiocode />, name: "VS Code" },
     { icon: <SiNetlify />, name: "Netlify" },
+    { icon: <SiSupabase />, name: "Supabase" },
+    { icon: <SiPostman />, name: "Poastman" },
     { icon: <SiFigma />, name: "Figma" },
     { icon: <SiVercel />, name: "Vercel" },
   ];

@@ -15,18 +15,19 @@ function Home2() {
               LET ME <span className="blue"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I discovered programming during my journey as a Mechatronics
-              Engineering student, and it quickly became more than just a
-              skill—it became my craft.
+              I discovered programming through Mechatronics Engineering and it
+              became the most serious thing I do.
               <br />
-              <br />I work with modern web technologies and I'm fluent in
-              <i>
-                <b className="blue">
-                  {" "}
-                  JavaScript, React.js, Next.js Tailwind CSS, Node.js,
-                  Express.js, PHP, MySQL and nest.js.
-                </b>
-              </i>
+              <br /> I work across the full MERN stack —
+              <b className="blue"> React</b> on the frontend,
+              <b className="blue"> Node.js and Express</b> on the backend,
+              <b className="blue"> MongoDB</b> for data. I have shipped a
+              production ticketing platform for a real Nigerian event, built a
+              fullstack business management system with
+              <b className="blue"> live API endpoints</b> and
+              <b className="blue"> JWT authentication</b>, and created a
+              real-time IoT dashboard that connects hardware sensor data to a
+              web interface.
               <br />
               <br />
               My interests lie in building &nbsp;
@@ -38,23 +39,7 @@ function Home2() {
               </i>
               <br />
               <br />
-              Whenever possible, I channel my creativity into developing
-              projects that solve everyday problems, using tools like{" "}
-              <b className="blue"> Node.js</b> and
-              <i>
-                <b className="blue">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="blue"> React.js &nbsp;</b>
-              </i>
-              and &nbsp;
-              <i>
-                <b className="blue">backend APIs</b>
-              </i>
+              &nbsp;
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -77,7 +62,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/devstein1365"
+                  href="https://github.com/Devstein1365"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

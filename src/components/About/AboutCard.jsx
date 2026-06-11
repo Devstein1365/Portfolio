@@ -8,17 +8,21 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="blue">Oga Gospel Oligwu </span>
-            from <span className="blue"> Nigeria.</span>
+            I am <span className="blue">Oga Gospel Oligwu</span>
+            from <span className="blue">Abuja, Nigeria.</span>
             <br />
-            I am currently a 300 Level Mechatronics Engineering student at
+            I am currently a 400 Level Mechatronics Engineering student at
             Federal University of Technology, Minna.
             <br />
-            Alongside engineering, I am deeply passionate about web development.
-            Over time, I’ve built several projects ranging from{" "}
-            <b className="blue">Hotel Booking System</b> and{" "}
-            <b className="blue">E-Commerce platforms</b> to an{" "}
-            <b className="blue">Online Clearance System</b>
+            Alongside engineering, I have hands-on experience
+            building ticketing platforms, business dashboards, REST APIs, and an
+            IoT interface that reads live hardware sensor dataand deploying
+            production-grade web applications. Over time,
+            I’ve built several projects ranging from{" "}
+            <b className="blue">Booking Systems</b> and{" "}
+            <b className="blue">IoT dashboards</b> to {" "}
+            <b className="blue">Marketplace</b> and {" "}
+            <b className="blue">Ecommerce Platforms</b>
             <br />
             <br />
             Apart from coding, some other activities that I enjoy!
@@ -31,7 +35,7 @@ function AboutCard() {
               <ImPointRight /> Playing Musical Instrument
             </li>
             <li className="about-activity">
-              <ImPointRight /> Teach STEM courses
+              <ImPointRight /> Teaching STEM courses
             </li>
             <li className="about-activity">
               <ImPointRight /> Sharing knowledge and collaborating with peers
