@@ -22,6 +22,7 @@
   },
   "scripts": {
     "dev": "vite",
+    "postinstall": "npx puppeteer browsers install chrome",
     "build": "vite build && node prerender.js",
     "preview": "vite preview",
     "test": "echo 'No test runner configured with Vite' && exit 0"
